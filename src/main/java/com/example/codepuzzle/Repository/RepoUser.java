@@ -12,7 +12,6 @@ import com.example.codepuzzle.Entity.TUser;
 @Repository
 public interface RepoUser extends JpaRepository<TUser, String> {
 
-     //esto es para validar por independiente los datos en el formulario
    Optional<TUser> findByEmail(String email);
 
 }

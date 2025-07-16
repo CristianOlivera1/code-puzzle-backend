@@ -175,7 +175,7 @@ public class BusinessUser {
 
     private String subirFotoPerfil(DtoRegisterUser dto, TUser usuario) throws Exception {
 
-        String perfilPath = "foto/" + usuario.getIdUsuario() + "_avatar.png";
+        String perfilPath = "foto/" + usuario.getIdUsuario() + ".png";
 
         byte[] imagenBytes;
 
