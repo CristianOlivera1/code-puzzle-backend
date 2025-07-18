@@ -105,7 +105,7 @@ public class GoogleAuthController {
             // Registrar nuevo usuario con Google
             DtoRegisterUser dto = new DtoRegisterUser();
             dto.setEmail(email);
-            dto.setNombre(nombre);
+            dto.setNombre(nombre+" "+apellidos);
             dto.setAvatar(avatar);
 
             businessUser.registrarUsuarioConGoogle(dto);

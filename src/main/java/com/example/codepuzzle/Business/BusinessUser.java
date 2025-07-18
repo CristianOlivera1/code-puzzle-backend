@@ -137,6 +137,7 @@ public class BusinessUser {
         dto.setFechaRegistro(usuario.getFechaRegistro());
     }
 
+    //registro manual de usuario
     @Transactional
     public DtoRegisterUser registrarUsuario(DtoRegisterUser dto) throws Exception {
         // Verificar si el email ya existe
